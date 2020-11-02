@@ -1,0 +1,25 @@
+{
+  "name": "stylelint-config-takiyon",
+  "version": "1.0.0",
+  "description": "Shareable stylelint config for Takiyon",
+  "main": "index.js",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "takiyon"
+  ],
+  "author": "Takiyon",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^13.7.2"
+  },
+  "devDependencies": {
+    "stylelint": "^13.7.2"
+  },
+  "dependencies": {
+    "stylelint-config-concentric-order": "^4.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0",
+	"stylelint-selector-no-mergeable": "jakezatecky/stylelint-selector-no-mergeable#master"
+  }
+}
