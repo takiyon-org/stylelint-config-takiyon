@@ -18,8 +18,9 @@
   },
   "dependencies": {
     "stylelint-config-concentric-order": "^4.0.0",
+    "stylelint-declaration-use-variable": "^1.7.2",
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.18.0",
-	"stylelint-selector-no-mergeable": "jakezatecky/stylelint-selector-no-mergeable#master"
+    "stylelint-selector-no-mergeable": "jakezatecky/stylelint-selector-no-mergeable#master"
   }
 }
