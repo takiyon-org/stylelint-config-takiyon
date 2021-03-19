@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Shareable stylelint config for Takiyon",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takiyon-org/stylelint-config-takiyon.git"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config",
@@ -10,6 +14,10 @@
   ],
   "author": "Takiyon",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takiyon-org/stylelint-config-takiyon/issues"
+  },
+  "homepage": "https://github.com/takiyon-org/stylelint-config-takiyon#readme",
   "peerDependencies": {
     "stylelint": "^13.7.2"
   },
