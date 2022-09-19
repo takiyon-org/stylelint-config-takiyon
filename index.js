@@ -1,8 +1,8 @@
-const postCss = require('postcss-css');
+const customSyntax = require('postcss-scss');
 
 module.exports = {
     extends: 'stylelint-config-concentric-order',
-    customSyntax: postCss,
+    customSyntax,
     plugins: [
         'stylelint-declaration-strict-value',
         'stylelint-order',

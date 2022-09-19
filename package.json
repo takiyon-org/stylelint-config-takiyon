@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-takiyon",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Shareable stylelint config for Takiyon",
   "main": "index.js",
   "repository": {
@@ -25,6 +25,7 @@
     "stylelint": "^14.12.0"
   },
   "dependencies": {
+    "postcss": "^8.4.16",
     "postcss-scss": "^4.0.5",
     "stylelint-config-concentric-order": "^5.1.0",
     "stylelint-declaration-strict-value": "^1.9.0",
