@@ -165,14 +165,14 @@ module.exports = {
                 '/color/',
                 'background',
                 'font-family',
-                {
-                    ignoreValues: [
-                        'transparent',
-                        'inherit',
-                        'none',
-                    ],
-                },
             ],
+            {
+                ignoreValues: [
+                    'transparent',
+                    'inherit',
+                    'none',
+                ],
+            },
         ],
     },
 };
