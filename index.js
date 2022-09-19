@@ -4,7 +4,6 @@ module.exports = {
         'stylelint-declaration-strict-value',
         'stylelint-order',
         'stylelint-scss',
-        'stylelint-selector-no-mergeable',
     ],
     rules: {
         'at-rule-empty-line-before': [
@@ -156,9 +155,6 @@ module.exports = {
         'scss/at-mixin-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
         'scss/dollar-variable-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
         'scss/percent-placeholder-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
-
-        // Merge selectors that can be merged
-        'no-duplicate-selectors': true,
 
         // Require variables
         'scale-unlimited/declaration-strict-value': [
