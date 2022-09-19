@@ -158,7 +158,7 @@ module.exports = {
         'scss/percent-placeholder-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
 
         // Merge selectors that can be merged
-        'selector-no-mergeable/selector-no-mergeable': true,
+        'no-duplicate-selectors': true,
 
         // Require variables
         'scale-unlimited/declaration-strict-value': [

@@ -28,7 +28,6 @@
     "stylelint-config-concentric-order": "^5.1.0",
     "stylelint-declaration-strict-value": "^1.9.0",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.3.0",
-    "stylelint-selector-no-mergeable": "jakezatecky/stylelint-selector-no-mergeable#master"
+    "stylelint-scss": "^4.3.0"
   }
 }
