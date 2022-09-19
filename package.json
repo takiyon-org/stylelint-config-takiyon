@@ -19,10 +19,10 @@
   },
   "homepage": "https://github.com/takiyon-org/stylelint-config-takiyon#readme",
   "peerDependencies": {
-    "stylelint": "^13.7.2"
+    "stylelint": "^14.12.0"
   },
   "devDependencies": {
-    "stylelint": "^13.7.2"
+    "stylelint": "^14.12.0"
   },
   "dependencies": {
     "stylelint-config-concentric-order": "^4.0.0",
