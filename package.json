@@ -19,16 +19,16 @@
   },
   "homepage": "https://github.com/takiyon-org/stylelint-config-takiyon#readme",
   "peerDependencies": {
-    "stylelint": "^13.7.2"
+    "stylelint": "^14.12.0"
   },
   "devDependencies": {
-    "stylelint": "^13.7.2"
+    "stylelint": "^14.12.0"
   },
   "dependencies": {
-    "stylelint-config-concentric-order": "^4.0.0",
-    "stylelint-declaration-use-variable": "^1.7.2",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.18.0",
+    "stylelint-config-concentric-order": "^5.1.0",
+    "stylelint-declaration-strict-value": "^1.9.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.3.0",
     "stylelint-selector-no-mergeable": "jakezatecky/stylelint-selector-no-mergeable#master"
   }
 }

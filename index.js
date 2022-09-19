@@ -1,7 +1,7 @@
 module.exports = {
     extends: 'stylelint-config-concentric-order',
     plugins: [
-        'stylelint-declaration-use-variable',
+        'stylelint-declaration-strict-value',
         'stylelint-order',
         'stylelint-scss',
         'stylelint-selector-no-mergeable',
@@ -161,7 +161,7 @@ module.exports = {
         'selector-no-mergeable/selector-no-mergeable': true,
 
         // Require variables
-        'sh-waqar/declaration-use-variable': [
+        'scale-unlimited/declaration-strict-value': [
             [
                 '/color/',
                 'background',
