@@ -30,9 +30,8 @@
   "dependencies": {
     "postcss": "^8.4.16",
     "postcss-scss": "^4.0.5",
-    "stylelint-config-concentric-order": "^5.1.0",
+    "stylelint-config-recess-order": "^4.0.0",
     "stylelint-declaration-strict-value": "^1.9.0",
-    "stylelint-order": "^6.0.3",
     "stylelint-scss": "^4.3.0"
   }
 }

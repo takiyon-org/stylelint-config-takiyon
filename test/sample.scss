@@ -7,8 +7,8 @@ $header-color: #333;
 $header-bg: darken($primary, 10%);
 
 header {
-  background: $header-bg;
   padding: 0 0.5rem;
+  background: $header-bg;
 
   .brand-link {
     color: $header-color;
