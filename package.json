@@ -3,6 +3,9 @@
   "version": "2.1.0",
   "description": "Shareable stylelint config for Takiyon",
   "main": "index.js",
+  "scripts": {
+    "test": "stylelint --config index.js test/**/*.scss"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/takiyon-org/stylelint-config-takiyon.git"

@@ -1,0 +1,16 @@
+//
+// Sample
+// --------------------------------------------------
+
+$primary: #965883;
+$header-color: #333;
+$header-bg: darken($primary, 10%);
+
+header {
+  background: $header-bg;
+  padding: 0 .5rem;
+
+  .brand-link {
+    color: $header-color;
+  }
+}
