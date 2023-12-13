@@ -2,9 +2,7 @@
 // Sample
 // --------------------------------------------------
 
-$primary: #965883;
-$header-color: #333;
-$header-bg: darken($primary, 10%);
+@import "variables";
 
 header {
   padding: 0 0.5rem;

@@ -1,5 +1,8 @@
 {
   "name": "stylelint-config-takiyon",
+  "engines": {
+    "node": ">18.12.0"
+  },
   "version": "3.0.0",
   "description": "Shareable stylelint config for Takiyon",
   "main": "index.js",
@@ -22,16 +25,16 @@
   },
   "homepage": "https://github.com/takiyon-org/stylelint-config-takiyon#readme",
   "peerDependencies": {
-    "stylelint": "^14.16.1 || ^15.2.0"
+    "stylelint": "^16.0.2"
   },
   "devDependencies": {
-    "stylelint": "^15.2.0"
+    "stylelint": "^16.0.2"
   },
   "dependencies": {
     "postcss": "^8.4.16",
     "postcss-scss": "^4.0.5",
     "stylelint-config-recess-order": "^4.0.0",
     "stylelint-declaration-strict-value": "^1.9.0",
-    "stylelint-scss": "^4.3.0"
+    "stylelint-scss": "^6.0.0"
   }
 }

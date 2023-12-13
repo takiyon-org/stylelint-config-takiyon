@@ -80,11 +80,11 @@ module.exports = {
         'scss/at-else-empty-line-before': 'never',
         'scss/at-else-if-parentheses-space-before': 'always',
         'scss/at-extend-no-missing-placeholder': true,
-        'scss/at-import-no-partial-leading-underscore': true,
         'scss/at-import-partial-extension': 'never',
         'scss/comment-no-loud': true,
         'scss/dollar-variable-colon-space-after': 'always',
         'scss/dollar-variable-colon-space-before': 'never',
+        'scss/load-no-partial-leading-underscore': true,
         'scss/selector-no-redundant-nesting-selector': true,
 
         // No vendor prefixes
