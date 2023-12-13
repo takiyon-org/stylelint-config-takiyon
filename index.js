@@ -4,7 +4,6 @@ module.exports = {
     extends: 'stylelint-config-recess-order',
     customSyntax,
     plugins: [
-        'stylelint-declaration-strict-value',
         'stylelint-order',
         'stylelint-scss',
     ],
@@ -102,21 +101,5 @@ module.exports = {
         'scss/at-mixin-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
         'scss/dollar-variable-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
         'scss/percent-placeholder-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
-
-        // Require variables
-        'scale-unlimited/declaration-strict-value': [
-            [
-                '/color/',
-                'background',
-                'font-family',
-            ],
-            {
-                ignoreValues: [
-                    'transparent',
-                    'inherit',
-                    'none',
-                ],
-            },
-        ],
     },
 };
