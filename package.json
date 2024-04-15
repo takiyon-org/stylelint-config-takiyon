@@ -33,7 +33,7 @@
   "dependencies": {
     "postcss": "^8.4.16",
     "postcss-scss": "^4.0.5",
-    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-config-recess-order": "^5.0.1",
     "stylelint-scss": "^6.0.0"
   }
 }
