@@ -81,7 +81,7 @@ module.exports = {
         'scss/at-extend-no-missing-placeholder': true,
         'scss/at-import-partial-extension': 'never',
         'scss/comment-no-loud': true,
-        'scss/dollar-variable-colon-space-after': 'always',
+        'scss/dollar-variable-colon-space-after': 'always-single-line',
         'scss/dollar-variable-colon-space-before': 'never',
         'scss/load-no-partial-leading-underscore': true,
         'scss/selector-no-redundant-nesting-selector': true,
