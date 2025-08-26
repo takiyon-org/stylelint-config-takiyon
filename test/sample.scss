@@ -2,7 +2,7 @@
 // Sample
 // --------------------------------------------------
 
-@import "variables";
+@use "variables.scss" as *;
 
 header {
   padding: 0 0.5rem;
