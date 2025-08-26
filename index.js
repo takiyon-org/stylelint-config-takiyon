@@ -1,6 +1,6 @@
-const customSyntax = require('postcss-scss');
+import customSyntax from 'postcss-scss';
 
-module.exports = {
+export default {
     extends: 'stylelint-config-recess-order',
     customSyntax,
     plugins: [

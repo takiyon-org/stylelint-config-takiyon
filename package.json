@@ -1,11 +1,9 @@
 {
   "name": "stylelint-config-takiyon",
-  "engines": {
-    "node": ">18.12.0"
-  },
   "version": "4.0.2",
   "description": "Shareable stylelint config for Takiyon",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "stylelint --config index.js test/**/*.scss"
   },
