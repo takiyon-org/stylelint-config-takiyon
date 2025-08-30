@@ -42,6 +42,7 @@ export default {
         'max-nesting-depth': 3,
         'no-duplicate-selectors': true,
         'order/order': [
+            'declarations',
             {
                 type: 'at-rule',
                 name: 'extend',
@@ -50,7 +51,6 @@ export default {
                 type: 'at-rule',
                 name: 'include',
             },
-            'declarations',
             'rules',
             {
                 type: 'at-rule',
@@ -102,7 +102,6 @@ export default {
         'scss/at-mixin-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
         'scss/dollar-variable-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
         'scss/percent-placeholder-pattern': '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
-
 
         // Require variables
         'scale-unlimited/declaration-strict-value': [
