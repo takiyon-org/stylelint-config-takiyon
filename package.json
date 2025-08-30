@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-takiyon",
-  "version": "5.1.0",
+  "version": "6.0.0",
   "description": "Shareable stylelint config for Takiyon",
   "main": "index.js",
   "type": "module",
