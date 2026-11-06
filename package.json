@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/takiyon-org/stylelint-config-takiyon#readme",
   "peerDependencies": {
-    "stylelint": "^17.8.0"
+    "stylelint": "^18.0.0"
   },
   "devDependencies": {
-    "stylelint": "^17.8.0"
+    "stylelint": "^18.0.0"
   },
   "dependencies": {
     "postcss": "^8.4.16",
